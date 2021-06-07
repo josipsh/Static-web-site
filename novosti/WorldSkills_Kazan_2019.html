@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SUPIT | World skills</title>
+    
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../animacije.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class=" nav nav-main-header">
+            <ul class="nav-main-header-ul">
+                <li class="nav-li"><a class="link-img-nav-main-header" href="../index.html"><img class="img-nav-main-header" src="../img/Algebra-logo.png"></a></li>
+                <li class="nav-li"><a class="link-nav-main-header" href="../index.html"><img class="icon-nav-main-header" src="../img/icons/home_18dp.png">Početna</a></li>
+                <li class="nav-li"><a class="link-nav-main-header" href="../o_nama.html"><img class="icon-nav-main-header" src="../img/icons/info_18dp.png">O nama</a></li>
+                <li class="nav-li"><a class="link-nav-main-header" href="../novosti.html"><img class="icon-nav-main-header" src="../img/icons/info_18dp.png">Novosti</a></li>
+                <li class="nav-li"><a class="link-nav-main-header" href="../nastavni_plan.html"><img class="icon-nav-main-header" src="../img/icons/info_18dp.png">Nastavni plan</a></li>
+                <li class="nav-li"><span class="link-nav-main-header kontakt-link"><img class="icon-nav-main-header" src="../img/icons/chat_18dp.png">Kontakt</span></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="senction-container">
+        <div class="img-section-header natjecanje-img">
+            <h5 class="img-section-title">Student Josip Stanešić 12. sistemas svijeta i dobitnik medalje izvrsnosti</h5>
+        </div>
+        <div class="section-header-container">
+            <h1 class="section-header novosti-section-header">WorldSkill natjecanje - Kazan 2019.</h1>
+        </div>
+        <div class="novosti-text-container novosti-text">
+            <p>
+                Nakon godinu dana priprema za natjecanje WorldSkills
+                Kazan 2019 na kojem je sudjelovalo 1300 natjecatelja iz
+                cijelog svijeta, trud se itekako isplatio. Josip,
+                student 3. godine preddiplomskog studija sistemskog
+                inženjerstva osvojio je 12. mjesto u vještini IT
+                Networks and System Administration te osvojio medalju
+                izvrsnosti! Čestitke Josipu ali i njegovim/našim
+                mentorima koji su ga pripremali za ovo natjecanje –
+                voditelju studija sistemskog inženjerstva Silviju
+                Papiću, voditelju katedre za operacijske sustave –
+                Vedranu Dakiću i asistentu na studiju sistemskog
+                inženjerstva – Jasminu Redžepagiću. Čestitke i našem
+                studentu 3.godine preddiplomskog studija programskog
+                inženjerstva Josipu Horvatu i mentoru voditelju katedre
+                za programsko inženjerstvo - Goranu Đambiću na osvojenom
+                16.mjestu u vještini IT Software Solutions for Business.
+            </p>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item-img">
+                <a data-fancybox="gallery" href="../img/galerija1.jpg"> 
+                    <img src="../img/galerija1.jpg">
+                </a>
+            </div>
+            <div class="gallery-item-img">
+                <a data-fancybox="gallery" href="../img/galerija2.jpg"> 
+                    <img src="../img/galerija2.jpg">
+                </a>
+            </div>
+            <div class="gallery-item-video">
+                <video controls>
+                    <source src="../video/worldskills.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <h3 class="footer-content-1">BUDI IZVRSTAN U ONOME ŠTO VOLIŠ</h3>
+            <h3 class="footer-content-2">ZAISKRI</h3>
+        </div>
+    </footer>
+
+    <script>
+
+        $(document).ready(function(){
+            
+            $("[data-fancybox]").fancybox({
+                loop: true,
+                buttons: []
+
+            });
+        });
+
+
+    </script>
+    <div class="contact-show senction-container">
+        <iframe id="contact-show-iframe" src="../Kontakt.html"></iframe>
+    </div>
+    <script src="../kontakt.js" async></script>
+</body>
+</html>

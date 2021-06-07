@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SUPIT | Nastavni plan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animacije.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery-ui/external/jquery/jquery.js"></script>
+    <script src="jquery-ui/jquery-ui.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class=" nav nav-main-header">
+            <ul class="nav-main-header-ul">
+                <li class="nav-li"><a class="link-img-nav-main-header" href="index.html"><img class="img-nav-main-header" src="img/Algebra-logo.png"></a></li>
+                <li class="nav-li"><a class="link-nav-main-header" href="index.html"><img class="icon-nav-main-header" src="img/icons/home_18dp.png">Početna</a></li>
+                <li class="nav-li"><a class="link-nav-main-header" href="o_nama.html"><img class="icon-nav-main-header" src="img/icons/info_18dp.png">O nama</a></li>
+                <li class="nav-li"><a class="link-nav-main-header" href="novosti.html"><img class="icon-nav-main-header" src="img/icons/info_18dp.png">Novosti</a></li>
+                <li class="nav-li"><a class="link-nav-main-header" href="nastavni_plan.html"><img class="icon-nav-main-header" src="img/icons/info_18dp.png">Nastavni plan</a></li>
+                <li class="nav-li"><span class="link-nav-main-header kontakt-link"><img class="icon-nav-main-header" src="img/icons/chat_18dp.png">Kontakt</span></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="senction-container">
+        <div class="section-header-container">
+            <h1 class="section-header">Nastavni plan</h1>
+        </div>
+
+        <div class="nastavni-plan-container">
+            <div class="nastavi-plan-section-left">
+                <div class="label-naziv-kolegija">
+                    <label for="nazivKolegija">Naziv kolegija:</label>
+                </div>
+                <input type="text" class="input-naziv-kolegija" id="nazivKolegija">
+            </div>
+            <div class="nastavi-plan-section-right">
+                <table class="table-kolegij">
+
+                    <thead class="table-label">
+                        <th>Kolegij</th>
+                        <th>ECTS</th>
+                        <th>Sati</th>
+                        <th>P</th>
+                        <th>V</th>
+                        <th>Tip</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                    <!-- <tr class="table-content">
+                        <th>Standardi u primjeni internetskoe tehnologije</th>
+                        <th id="ects">5</th>
+                        <th id="sati">60</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>Obavezni</th>
+                        <th><input type="button" class="btn btn-decline" value="Obriši"></th>
+                    </tr> -->
+                    <!-- <tr class="table-content">
+                        <th>Razvoj Web Aplikacija</th>
+                        <th>6</th>
+                        <th>60</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>Obavezni</th>
+                        <th><input type="button" class="btn btn-decline" value="Obriši"></th>
+                    </tr> -->
+                    <tfoot class="table-label table-footer">
+                        <th>Ukupno</th>
+                        <th class="ukupni-etcs table-label-red">0</th>
+                        <th class="ukupno-sati table-label-red">0</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3 class="footer-content-1">BUDI IZVRSTAN U ONOME ŠTO VOLIŠ</h3>
+            <h3 class="footer-content-2">ZAISKRI</h3>
+        </div>
+    </footer>
+    <div class="contact-show senction-container">
+        <iframe id="contact-show-iframe" src="Kontakt.html"></iframe>
+    </div>
+    <script src="nastavni_plan.js" async></script>
+    <script src="kontakt.js" async></script>
+    
+</body>
+</html>
